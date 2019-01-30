@@ -1,0 +1,2358 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "57922582e37c410bb928a870da36a473",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "61525a76dcff62036bfb5bc115808e54",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "78260b859ccef2e3a92692d9677102c4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e49a1b4265fbd6dd5148975a0d7ecb8f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e347d7970d8546a1d318ce9994989d7d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e7b9dfb5ee5304601c86dd78c2028849",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5d5f559c338604cc602de6480f93fccb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "176dadcc-aa26-5c02-a651-88867760143b": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-styled-components",
+      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">=2.0.32"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b2399d0f8b271e1b7264546558f0cb22",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3326aef5-4734-5b2f-94a6-69c5b8e5809d": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-source-filesystem",
+      "id": "3326aef5-4734-5b2f-94a6-69c5b8e5809d",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.18",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.18",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "cbbf59ecc88f01df5d3b79787365fc40",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "db242c9b8b5418e6531f3701c62040e6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "381e413275cbc2aedc452815a82306f2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "468361e0-32fe-5cae-b352-5ea12188fb77": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-image",
+      "id": "468361e0-32fe-5cae-b352-5ea12188fb77",
+      "name": "gatsby-image",
+      "version": "2.0.29",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-image",
+      "packageJson": {
+        "name": "gatsby-image",
+        "description": "Lazy-loading React image component with optional support for the blur-up effect.",
+        "version": "2.0.29",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-component",
+          "react-component"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react-testing-library",
+            "version": "^5.0.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1bdda636f1309b064a580ea682571dd0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "112c12f8-b222-509b-abe0-dfe93a905df9": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-manifest",
+      "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0fcd37d92cea5842908cc74a6ac49d17",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.22",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a66c4881da05e9d14bf03caa09e3645c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6277c281-c143-549e-b0ff-a8f27f6a99f8": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-source-filesystem",
+      "id": "6277c281-c143-549e-b0ff-a8f27f6a99f8",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.18",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "posts",
+        "path": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.18",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f29818cf05d98ef790ce33b0fce0e7bc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4fef758f1629741744dafb3f775efe77",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "e43258ee44f2065a4328c90b0d4cba34",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.10.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.103"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.18"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.18"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.12"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-spring",
+            "version": "^7.2.10"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.16.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0ac4c6b8f9ce6ed0e100d57e7cac651d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "38e50f51-7d09-5d42-b277-0dfb7287e9d8": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-page-creator",
+      "id": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "36e692c77f3c671847e5371e7e39b624",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Brett's Gatsby Site",
+        "description": "A new blog",
+        "author": "@gatsbyjs"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-01-30T22:12:33.185Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6ded9cb69da31c9e3d95fb3af49bfab4",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63c3f879-f31c-5b67-bdea-a9f0e26ad8aa": {
+      "id": "63c3f879-f31c-5b67-bdea-a9f0e26ad8aa",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5b5ee54f5b5734fde99ce217827e67e0",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2019-01-30T21:12:17.200Z",
+      "accessTime": "2019-01-30T22:12:35.677Z",
+      "changeTime": "2019-01-30T21:12:17.200Z",
+      "birthTime": "2019-01-28T01:17:37.120Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602607984,
+      "blocks": 0,
+      "atimeMs": 1548886355677.1497,
+      "mtimeMs": 1548882737199.752,
+      "ctimeMs": 1548882737199.752,
+      "birthtimeMs": 1548638257119.8542,
+      "atime": "2019-01-30T22:12:35.677Z",
+      "mtime": "2019-01-30T21:12:17.200Z",
+      "ctime": "2019-01-30T21:12:17.200Z",
+      "birthtime": "2019-01-28T01:17:37.120Z"
+    },
+    "78ba5c8b-ba47-5f64-8585-55bbcc5f774c": {
+      "id": "78ba5c8b-ba47-5f64-8585-55bbcc5f774c",
+      "children": [
+        "fffae575-b34b-5ea1-a11d-136abb66f730"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-01-28T01:17:37.121Z",
+      "accessTime": "2019-01-30T21:10:53.937Z",
+      "changeTime": "2019-01-28T01:17:37.121Z",
+      "birthTime": "2019-01-28T01:17:37.121Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602607986,
+      "blocks": 48,
+      "atimeMs": 1548882653937.316,
+      "mtimeMs": 1548638257121.073,
+      "ctimeMs": 1548638257121.073,
+      "birthtimeMs": 1548638257120.8528,
+      "atime": "2019-01-30T21:10:53.937Z",
+      "mtime": "2019-01-28T01:17:37.121Z",
+      "ctime": "2019-01-28T01:17:37.121Z",
+      "birthtime": "2019-01-28T01:17:37.121Z"
+    },
+    "fffae575-b34b-5ea1-a11d-136abb66f730": {
+      "id": "fffae575-b34b-5ea1-a11d-136abb66f730",
+      "children": [],
+      "parent": "78ba5c8b-ba47-5f64-8585-55bbcc5f774c",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "88eef0f1-575f-5cb3-b1c6-3d349d965f22": {
+      "id": "88eef0f1-575f-5cb3-b1c6-3d349d965f22",
+      "children": [
+        "43692ae9-b05c-508a-875f-438dacd77902"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-01-28T01:17:37.121Z",
+      "accessTime": "2019-01-30T21:56:25.381Z",
+      "changeTime": "2019-01-28T01:17:37.121Z",
+      "birthTime": "2019-01-28T01:17:37.120Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602607985,
+      "blocks": 328,
+      "atimeMs": 1548885385381.3108,
+      "mtimeMs": 1548638257120.6863,
+      "ctimeMs": 1548638257120.6863,
+      "birthtimeMs": 1548638257119.9348,
+      "atime": "2019-01-30T21:56:25.381Z",
+      "mtime": "2019-01-28T01:17:37.121Z",
+      "ctime": "2019-01-28T01:17:37.121Z",
+      "birthtime": "2019-01-28T01:17:37.120Z"
+    },
+    "43692ae9-b05c-508a-875f-438dacd77902": {
+      "id": "43692ae9-b05c-508a-875f-438dacd77902",
+      "children": [],
+      "parent": "88eef0f1-575f-5cb3-b1c6-3d349d965f22",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "dd4f7f60-0f20-5ec2-8a4e-7970a92ba0e3": {
+      "id": "dd4f7f60-0f20-5ec2-8a4e-7970a92ba0e3",
+      "children": [
+        "a03f1da3-1c69-5886-b6bd-9d36bdcbf69f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ddfc2c1e649dc4e3dd6cda551c5e871d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/A_Way_of_Speaking_Cover.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/images/A_Way_of_Speaking_Cover.jpg",
+      "relativePath": "A_Way_of_Speaking_Cover.jpg",
+      "extension": "jpg",
+      "size": 1674694,
+      "prettySize": "1.67 MB",
+      "modifiedTime": "2018-06-21T03:36:07.528Z",
+      "accessTime": "2019-01-30T21:10:53.937Z",
+      "changeTime": "2019-01-30T20:34:12.341Z",
+      "birthTime": "2018-06-21T03:36:03.947Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/images",
+      "base": "A_Way_of_Speaking_Cover.jpg",
+      "ext": ".jpg",
+      "name": "A_Way_of_Speaking_Cover",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602754106,
+      "blocks": 4224,
+      "atimeMs": 1548882653937.2146,
+      "mtimeMs": 1529552167528.3137,
+      "ctimeMs": 1548880452340.6467,
+      "birthtimeMs": 1529552163946.515,
+      "atime": "2019-01-30T21:10:53.937Z",
+      "mtime": "2018-06-21T03:36:07.528Z",
+      "ctime": "2019-01-30T20:34:12.341Z",
+      "birthtime": "2018-06-21T03:36:03.947Z"
+    },
+    "a03f1da3-1c69-5886-b6bd-9d36bdcbf69f": {
+      "id": "a03f1da3-1c69-5886-b6bd-9d36bdcbf69f",
+      "children": [],
+      "parent": "dd4f7f60-0f20-5ec2-8a4e-7970a92ba0e3",
+      "internal": {
+        "contentDigest": "ddfc2c1e649dc4e3dd6cda551c5e871d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5a2c0b83-ad4a-53fe-9adc-0c5461b9af7d": {
+      "id": "5a2c0b83-ad4a-53fe-9adc-0c5461b9af7d",
+      "children": [
+        "4d6817e1-0216-523e-b338-d73973132e3f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c95a033b2f8ae6ac6f805bba22ffa501",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/bg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/images/bg.jpg",
+      "relativePath": "bg.jpg",
+      "extension": "jpg",
+      "size": 2703162,
+      "prettySize": "2.7 MB",
+      "modifiedTime": "2018-07-14T01:37:09.347Z",
+      "accessTime": "2019-01-30T21:56:25.381Z",
+      "changeTime": "2019-01-30T21:12:17.200Z",
+      "birthTime": "2018-07-14T01:36:50.459Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/images",
+      "base": "bg.jpg",
+      "ext": ".jpg",
+      "name": "bg",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602754105,
+      "blocks": 6160,
+      "atimeMs": 1548885385381.3123,
+      "mtimeMs": 1531532229346.8577,
+      "ctimeMs": 1548882737199.7517,
+      "birthtimeMs": 1531532210458.5808,
+      "atime": "2019-01-30T21:56:25.381Z",
+      "mtime": "2018-07-14T01:37:09.347Z",
+      "ctime": "2019-01-30T21:12:17.200Z",
+      "birthtime": "2018-07-14T01:36:50.459Z"
+    },
+    "4d6817e1-0216-523e-b338-d73973132e3f": {
+      "id": "4d6817e1-0216-523e-b338-d73973132e3f",
+      "children": [],
+      "parent": "5a2c0b83-ad4a-53fe-9adc-0c5461b9af7d",
+      "internal": {
+        "contentDigest": "c95a033b2f8ae6ac6f805bba22ffa501",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d2faf0f8-88a9-5044-851b-82562514121e": {
+      "id": "d2faf0f8-88a9-5044-851b-82562514121e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b31d312f224434624be5462492a1be0a",
+        "type": "Directory",
+        "description": "Directory \"src/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-01-30T16:17:10.657Z",
+      "accessTime": "2019-01-30T22:12:35.699Z",
+      "changeTime": "2019-01-30T16:17:10.657Z",
+      "birthTime": "2019-01-29T03:10:07.924Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602697750,
+      "blocks": 0,
+      "atimeMs": 1548886355699.078,
+      "mtimeMs": 1548865030656.9807,
+      "ctimeMs": 1548865030656.9807,
+      "birthtimeMs": 1548731407923.9675,
+      "atime": "2019-01-30T22:12:35.699Z",
+      "mtime": "2019-01-30T16:17:10.657Z",
+      "ctime": "2019-01-30T16:17:10.657Z",
+      "birthtime": "2019-01-29T03:10:07.924Z"
+    },
+    "05e965d1-1415-5b8d-9af4-f2c2254fe08c": {
+      "id": "05e965d1-1415-5b8d-9af4-f2c2254fe08c",
+      "children": [
+        "097ca6d8-2f06-5427-8892-2cd34de0b47d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6cd001828f73c7e1e8af70dd47a39318",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/post1.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post1.md",
+      "relativePath": "post1.md",
+      "extension": "md",
+      "size": 569,
+      "prettySize": "569 B",
+      "modifiedTime": "2019-01-29T03:35:56.522Z",
+      "accessTime": "2019-01-30T21:10:50.716Z",
+      "changeTime": "2019-01-29T03:35:56.522Z",
+      "birthTime": "2019-01-29T03:11:05.163Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts",
+      "base": "post1.md",
+      "ext": ".md",
+      "name": "post1",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602697769,
+      "blocks": 8,
+      "atimeMs": 1548882650715.5044,
+      "mtimeMs": 1548732956522.382,
+      "ctimeMs": 1548732956522.382,
+      "birthtimeMs": 1548731465162.8618,
+      "atime": "2019-01-30T21:10:50.716Z",
+      "mtime": "2019-01-29T03:35:56.522Z",
+      "ctime": "2019-01-29T03:35:56.522Z",
+      "birthtime": "2019-01-29T03:11:05.163Z"
+    },
+    "97da81fe-d756-5260-b8b5-501b3f8ac3f3": {
+      "id": "97da81fe-d756-5260-b8b5-501b3f8ac3f3",
+      "children": [
+        "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "87f42accf3f25e8934aa0d08ea050aff",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/post3.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post3.md",
+      "relativePath": "post3.md",
+      "extension": "md",
+      "size": 572,
+      "prettySize": "572 B",
+      "modifiedTime": "2019-01-30T16:38:19.158Z",
+      "accessTime": "2019-01-30T21:10:50.716Z",
+      "changeTime": "2019-01-30T16:38:19.158Z",
+      "birthTime": "2019-01-30T16:17:10.657Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts",
+      "base": "post3.md",
+      "ext": ".md",
+      "name": "post3",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602740606,
+      "blocks": 8,
+      "atimeMs": 1548882650715.5535,
+      "mtimeMs": 1548866299158.0347,
+      "ctimeMs": 1548866299158.0347,
+      "birthtimeMs": 1548865030656.9531,
+      "atime": "2019-01-30T21:10:50.716Z",
+      "mtime": "2019-01-30T16:38:19.158Z",
+      "ctime": "2019-01-30T16:38:19.158Z",
+      "birthtime": "2019-01-30T16:17:10.657Z"
+    },
+    "6f057c15-7d87-5dcb-a7e6-4a274318ab8f": {
+      "id": "6f057c15-7d87-5dcb-a7e6-4a274318ab8f",
+      "children": [
+        "a1c2119e-47a4-5cc0-add5-5741b904538c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "61ee67051c9620910dd708888f7b5878",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/post2.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post2.md",
+      "relativePath": "post2.md",
+      "extension": "md",
+      "size": 568,
+      "prettySize": "568 B",
+      "modifiedTime": "2019-01-30T15:59:55.989Z",
+      "accessTime": "2019-01-30T21:10:50.716Z",
+      "changeTime": "2019-01-30T15:59:55.989Z",
+      "birthTime": "2019-01-30T15:59:05.928Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts",
+      "base": "post2.md",
+      "ext": ".md",
+      "name": "post2",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602740082,
+      "blocks": 8,
+      "atimeMs": 1548882650715.5303,
+      "mtimeMs": 1548863995989.4478,
+      "ctimeMs": 1548863995989.4478,
+      "birthtimeMs": 1548863945928.036,
+      "atime": "2019-01-30T21:10:50.716Z",
+      "mtime": "2019-01-30T15:59:55.989Z",
+      "ctime": "2019-01-30T15:59:55.989Z",
+      "birthtime": "2019-01-30T15:59:05.928Z"
+    },
+    "097ca6d8-2f06-5427-8892-2cd34de0b47d": {
+      "id": "097ca6d8-2f06-5427-8892-2cd34de0b47d",
+      "children": [],
+      "parent": "05e965d1-1415-5b8d-9af4-f2c2254fe08c",
+      "internal": {
+        "content": "\n# Hello\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
+        "type": "MarkdownRemark",
+        "contentDigest": "4cb995c2a328fe444b360c7f211861f9",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Our First Post",
+        "slug": "/first-post",
+        "date": "2019-01-28"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Hello\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post1.md"
+    },
+    "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb": {
+      "id": "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb",
+      "children": [],
+      "parent": "97da81fe-d756-5260-b8b5-501b3f8ac3f3",
+      "internal": {
+        "content": "\n# Cold Day\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
+        "type": "MarkdownRemark",
+        "contentDigest": "3270eee434ba9d5e4fada0ec42c189b0",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Our Third Post",
+        "slug": "/third-post",
+        "date": "2019-01-31"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Cold Day\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post3.md"
+    },
+    "a1c2119e-47a4-5cc0-add5-5741b904538c": {
+      "id": "a1c2119e-47a4-5cc0-add5-5741b904538c",
+      "children": [],
+      "parent": "6f057c15-7d87-5dcb-a7e6-4a274318ab8f",
+      "internal": {
+        "content": "\n# Yo\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
+        "type": "MarkdownRemark",
+        "contentDigest": "a7291819893e233d808d03606047c55e",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Our Second Post",
+        "slug": "/second-post",
+        "date": "2019-01-30"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Yo\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post2.md"
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f54317301b0f2bed56ba0946ff68de40",
+        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/first-post": {
+      "jsonName": "posts-first-post-162",
+      "internalComponentName": "ComponentPostsFirstPost",
+      "path": "/posts/first-post",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/first-post"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js",
+      "id": "SitePage /posts/first-post",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bee6583b29aa17086fce6e2576c2c7ba",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/third-post": {
+      "jsonName": "posts-third-post-82e",
+      "internalComponentName": "ComponentPostsThirdPost",
+      "path": "/posts/third-post",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/third-post"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js",
+      "id": "SitePage /posts/third-post",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d03773a0e5ace37e60c1f277f0cda41a",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/second-post": {
+      "jsonName": "posts-second-post-14f",
+      "internalComponentName": "ComponentPostsSecondPost",
+      "path": "/posts/second-post",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/second-post"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js",
+      "id": "SitePage /posts/second-post",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "48a72003fd2c5d2381385c0aa75567ce",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "pluginCreatorId": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b24f98c36db0d7f4d2ae2e0c18fb68c3",
+        "description": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "pluginCreatorId": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "071aace888df8bd431c319e388ff1396",
+        "description": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /company/team/": {
+      "jsonName": "company-team-a16",
+      "internalComponentName": "ComponentCompanyTeam",
+      "path": "/company/team/",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/company/team.js",
+      "componentChunkName": "component---src-pages-company-team-js",
+      "context": {},
+      "pluginCreator___NODE": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "pluginCreatorId": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/company/team.js",
+      "id": "SitePage /company/team/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "78b7d5524c95430dd406d2faaa4ef46c",
+        "description": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "pluginCreatorId": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c982046274235eac62a6b0729a28fd43",
+        "description": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "pluginCreatorId": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c91ee97815ad16f709c3322f039c41c8",
+        "description": "38e50f51-7d09-5d42-b277-0dfb7287e9d8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9525c8bd22d3217c257d2c6ef8075f38",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "2b74fcbd5deed42c937ee4d069340aa3"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ],
+      "88eef0f1-575f-5cb3-b1c6-3d349d965f22": [
+        "sq--src-components-image-js"
+      ],
+      "5a2c0b83-ad4a-53fe-9adc-0c5461b9af7d": [
+        "sq--src-components-layout-js"
+      ],
+      "43692ae9-b05c-508a-875f-438dacd77902": [
+        "sq--src-components-image-js"
+      ],
+      "4d6817e1-0216-523e-b338-d73973132e3f": [
+        "sq--src-components-layout-js"
+      ],
+      "097ca6d8-2f06-5427-8892-2cd34de0b47d": [
+        "/posts/first-post"
+      ],
+      "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb": [
+        "/posts/third-post"
+      ],
+      "a1c2119e-47a4-5cc0-add5-5741b904538c": [
+        "/posts/second-post"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        null,
+        "sq--src-components-archive-js",
+        "sq--src-components-listing-js"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-seo-js": 1025518380,
+    "sq--src-components-layout-js": 2885641949,
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "company-team-a16": "654/path---company-team-a-16-046-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 2011440971,
+    "sq--src-components-archive-js": 1194998240,
+    "somefakepage-bea": "601/path---somefakepage-bea-f3b-NZuapzHg3X9TaN1iIixfv1W23E",
+    "third-post-f99": "998/path---third-post-f-99-5fb-NZuapzHg3X9TaN1iIixfv1W23E",
+    "second-post-da0": "349/path---second-post-da-0-248-NZuapzHg3X9TaN1iIixfv1W23E",
+    "first-post-eb4": "158/path---first-post-eb-4-4f5-NZuapzHg3X9TaN1iIixfv1W23E",
+    "posts-first-post-162": "234/path---posts-first-post-162-5dc-q4XAX0l3lSLsv0udV7jDWyzCbso",
+    "posts-second-post-14f": "576/path---posts-second-post-14-f-e8a-q08oghjhZkFQ8PXHd6m6Xj1u2PI",
+    "posts-third-post-82e": "584/path---posts-third-post-82-e-990-FQ0bd4a3D38c0lU11k0cG04ook",
+    "sq--src-components-listing-js": 2206128657,
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js": {
+      "query": "query PostQuery(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n      date\n      slug\n    }\n  }\n}\n",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js"
+    },
+    "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/404.js"
+    },
+    "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/about.js"
+    },
+    "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/company/team.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/company/team.js"
+    },
+    "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/index.js"
+    },
+    "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/page-2.js"
+    },
+    "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-archive-js": {
+      "name": "blogPostArchive",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/archive.js",
+      "id": "sq--src-components-archive-js",
+      "jsonName": "sq--src-components-archive-js",
+      "query": "query blogPostArchive {\n  allMarkdownRemark(limit: 5, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          slug\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 1194998240
+    },
+    "sq--src-components-image-js": {
+      "name": "usersBrettCimbalikCodeAnotherGatsbyTutorialSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersBrettCimbalikCodeAnotherGatsbyTutorialSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n  file(relativePath: {regex: \"/bg/\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2885641949
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    },
+    "sq--src-components-listing-js": {
+      "name": "BlogPostListing",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/listing.js",
+      "id": "sq--src-components-listing-js",
+      "jsonName": "sq--src-components-listing-js",
+      "query": "query BlogPostListing {\n  allMarkdownRemark(limit: 10, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        excerpt\n        frontmatter {\n          date(formatString: \"MMMM, DD, YYYY\")\n          title\n          slug\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 2206128657
+    }
+  }
+}
