@@ -2,10 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Brett's Gatsby Site`,
     description: `A new blog`,
-    author: `@gatsbyjs`,
+    author: `Brett Cimbalik`,
+    siteUrl: 'https://nifty-hopper-b1a6cb.netlify.com'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -16,6 +18,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-image`,
     {
       resolve: `gatsby-plugin-manifest`,

@@ -307,6 +307,88 @@
         "owner": "internal-data-bridge"
       }
     },
+    "9ccc7860-87fc-53f6-a439-0a4dc02836bd": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-sitemap",
+      "id": "9ccc7860-87fc-53f6-a439-0a4dc02836bd",
+      "name": "gatsby-plugin-sitemap",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7ee79d5af38322c5c36655474f2b435e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "176dadcc-aa26-5c02-a651-88867760143b": {
       "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-styled-components",
       "id": "176dadcc-aa26-5c02-a651-88867760143b",
@@ -734,6 +816,116 @@
       "children": [],
       "internal": {
         "contentDigest": "381e413275cbc2aedc452815a82306f2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4303f310-a6d0-5b7c-b8cd-0fc45931d73d": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-netlify-cms",
+      "id": "4303f310-a6d0-5b7c-b8cd-0fc45931d73d",
+      "name": "gatsby-plugin-netlify-cms",
+      "version": "3.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [
+        "onInitialClientRender"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-netlify-cms",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cms",
+        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
+        "version": "3.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "netlify-cms",
+          "cms"
+        ],
+        "author": {
+          "name": "Shawn Erquhart",
+          "email": "shawn@erquh.art"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "friendly-errors-webpack-plugin",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "html-webpack-exclude-assets-plugin",
+            "version": "^0.0.7"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-css-extract-plugin",
+            "version": "^0.4.1"
+          },
+          {
+            "name": "netlify-identity-widget",
+            "version": "^1.4.11"
+          },
+          {
+            "name": "webpack",
+            "version": "^4.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.101"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.0.6"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b3c8a919b9b907324f52e0b3cca17ab6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1267,11 +1459,99 @@
         "owner": "internal-data-bridge"
       }
     },
+    "54e3ea36-236a-5532-9628-10debfd8525c": {
+      "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-netlify",
+      "id": "54e3ea36-236a-5532-9628-10debfd8525c",
+      "name": "gatsby-plugin-netlify",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-netlify",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "http/2-server-push",
+          "netlify"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "kebab-hash",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^3.0.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6af96de8e75a0a28d762d06641fe6d43",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/BrettCimbalik/code/another-gatsby-tutorial",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "e43258ee44f2065a4328c90b0d4cba34",
+      "version": "eb54e0bc4a38f89f3de1739555895a69",
       "pluginOptions": {
         "plugins": []
       },
@@ -1308,6 +1588,14 @@
             "version": "^2.0.14"
           },
           {
+            "name": "gatsby-plugin-netlify",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-plugin-netlify-cms",
+            "version": "^3.0.11"
+          },
+          {
             "name": "gatsby-plugin-offline",
             "version": "^2.0.22"
           },
@@ -1318,6 +1606,10 @@
           {
             "name": "gatsby-plugin-sharp",
             "version": "^2.0.18"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^2.0.4"
           },
           {
             "name": "gatsby-plugin-styled-components",
@@ -1334,6 +1626,10 @@
           {
             "name": "gatsby-transformer-sharp",
             "version": "^2.1.12"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.3.3"
           },
           {
             "name": "prop-types",
@@ -1373,7 +1669,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "0ac4c6b8f9ce6ed0e100d57e7cac651d",
+        "contentDigest": "50e70c33d09bb6a52483400b56ccd898",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1485,16 +1781,17 @@
       "siteMetadata": {
         "title": "Brett's Gatsby Site",
         "description": "A new blog",
-        "author": "@gatsbyjs"
+        "author": "Brett Cimbalik",
+        "siteUrl": "https://nifty-hopper-b1a6cb.netlify.com"
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-30T22:12:33.185Z",
+      "buildTime": "2019-01-31T02:13:24.238Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6ded9cb69da31c9e3d95fb3af49bfab4",
+        "contentDigest": "7d8f9e1215dc8ad4d10d8fb6a39a46f7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1504,7 +1801,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "5b5ee54f5b5734fde99ce217827e67e0",
+        "contentDigest": "fb533636003fdd3172689e2b27b54c0d",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1516,7 +1813,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-30T21:12:17.200Z",
-      "accessTime": "2019-01-30T22:12:35.677Z",
+      "accessTime": "2019-01-31T02:13:26.955Z",
       "changeTime": "2019-01-30T21:12:17.200Z",
       "birthTime": "2019-01-28T01:17:37.120Z",
       "root": "/",
@@ -1534,11 +1831,11 @@
       "blksize": 4096,
       "ino": 8602607984,
       "blocks": 0,
-      "atimeMs": 1548886355677.1497,
+      "atimeMs": 1548900806955.3918,
       "mtimeMs": 1548882737199.752,
       "ctimeMs": 1548882737199.752,
       "birthtimeMs": 1548638257119.8542,
-      "atime": "2019-01-30T22:12:35.677Z",
+      "atime": "2019-01-31T02:13:26.955Z",
       "mtime": "2019-01-30T21:12:17.200Z",
       "ctime": "2019-01-30T21:12:17.200Z",
       "birthtime": "2019-01-28T01:17:37.120Z"
@@ -1563,7 +1860,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-28T01:17:37.121Z",
-      "accessTime": "2019-01-30T21:10:53.937Z",
+      "accessTime": "2019-01-31T02:10:48.604Z",
       "changeTime": "2019-01-28T01:17:37.121Z",
       "birthTime": "2019-01-28T01:17:37.121Z",
       "root": "/",
@@ -1581,11 +1878,11 @@
       "blksize": 4096,
       "ino": 8602607986,
       "blocks": 48,
-      "atimeMs": 1548882653937.316,
+      "atimeMs": 1548900648603.7163,
       "mtimeMs": 1548638257121.073,
       "ctimeMs": 1548638257121.073,
       "birthtimeMs": 1548638257120.8528,
-      "atime": "2019-01-30T21:10:53.937Z",
+      "atime": "2019-01-31T02:10:48.604Z",
       "mtime": "2019-01-28T01:17:37.121Z",
       "ctime": "2019-01-28T01:17:37.121Z",
       "birthtime": "2019-01-28T01:17:37.121Z"
@@ -1620,7 +1917,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-01-28T01:17:37.121Z",
-      "accessTime": "2019-01-30T21:56:25.381Z",
+      "accessTime": "2019-01-31T02:10:48.604Z",
       "changeTime": "2019-01-28T01:17:37.121Z",
       "birthTime": "2019-01-28T01:17:37.120Z",
       "root": "/",
@@ -1638,11 +1935,11 @@
       "blksize": 4096,
       "ino": 8602607985,
       "blocks": 328,
-      "atimeMs": 1548885385381.3108,
+      "atimeMs": 1548900648603.713,
       "mtimeMs": 1548638257120.6863,
       "ctimeMs": 1548638257120.6863,
       "birthtimeMs": 1548638257119.9348,
-      "atime": "2019-01-30T21:56:25.381Z",
+      "atime": "2019-01-31T02:10:48.604Z",
       "mtime": "2019-01-28T01:17:37.121Z",
       "ctime": "2019-01-28T01:17:37.121Z",
       "birthtime": "2019-01-28T01:17:37.120Z"
@@ -1677,7 +1974,7 @@
       "size": 1674694,
       "prettySize": "1.67 MB",
       "modifiedTime": "2018-06-21T03:36:07.528Z",
-      "accessTime": "2019-01-30T21:10:53.937Z",
+      "accessTime": "2019-01-31T02:10:59.189Z",
       "changeTime": "2019-01-30T20:34:12.341Z",
       "birthTime": "2018-06-21T03:36:03.947Z",
       "root": "/",
@@ -1695,11 +1992,11 @@
       "blksize": 4096,
       "ino": 8602754106,
       "blocks": 4224,
-      "atimeMs": 1548882653937.2146,
+      "atimeMs": 1548900659189.3733,
       "mtimeMs": 1529552167528.3137,
       "ctimeMs": 1548880452340.6467,
       "birthtimeMs": 1529552163946.515,
-      "atime": "2019-01-30T21:10:53.937Z",
+      "atime": "2019-01-31T02:10:59.189Z",
       "mtime": "2018-06-21T03:36:07.528Z",
       "ctime": "2019-01-30T20:34:12.341Z",
       "birthtime": "2018-06-21T03:36:03.947Z"
@@ -1734,7 +2031,7 @@
       "size": 2703162,
       "prettySize": "2.7 MB",
       "modifiedTime": "2018-07-14T01:37:09.347Z",
-      "accessTime": "2019-01-30T21:56:25.381Z",
+      "accessTime": "2019-01-31T02:10:48.604Z",
       "changeTime": "2019-01-30T21:12:17.200Z",
       "birthTime": "2018-07-14T01:36:50.459Z",
       "root": "/",
@@ -1752,11 +2049,11 @@
       "blksize": 4096,
       "ino": 8602754105,
       "blocks": 6160,
-      "atimeMs": 1548885385381.3123,
+      "atimeMs": 1548900648603.7092,
       "mtimeMs": 1531532229346.8577,
       "ctimeMs": 1548882737199.7517,
       "birthtimeMs": 1531532210458.5808,
-      "atime": "2019-01-30T21:56:25.381Z",
+      "atime": "2019-01-31T02:10:48.604Z",
       "mtime": "2018-07-14T01:37:09.347Z",
       "ctime": "2019-01-30T21:12:17.200Z",
       "birthtime": "2018-07-14T01:36:50.459Z"
@@ -1776,7 +2073,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "b31d312f224434624be5462492a1be0a",
+        "contentDigest": "a585d08bebb5886450dce6ea5a4c3868",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1788,7 +2085,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-01-30T16:17:10.657Z",
-      "accessTime": "2019-01-30T22:12:35.699Z",
+      "accessTime": "2019-01-31T02:13:26.991Z",
       "changeTime": "2019-01-30T16:17:10.657Z",
       "birthTime": "2019-01-29T03:10:07.924Z",
       "root": "/",
@@ -1806,11 +2103,11 @@
       "blksize": 4096,
       "ino": 8602697750,
       "blocks": 0,
-      "atimeMs": 1548886355699.078,
+      "atimeMs": 1548900806991.113,
       "mtimeMs": 1548865030656.9807,
       "ctimeMs": 1548865030656.9807,
       "birthtimeMs": 1548731407923.9675,
-      "atime": "2019-01-30T22:12:35.699Z",
+      "atime": "2019-01-31T02:13:26.991Z",
       "mtime": "2019-01-30T16:17:10.657Z",
       "ctime": "2019-01-30T16:17:10.657Z",
       "birthtime": "2019-01-29T03:10:07.924Z"
@@ -1835,7 +2132,7 @@
       "size": 569,
       "prettySize": "569 B",
       "modifiedTime": "2019-01-29T03:35:56.522Z",
-      "accessTime": "2019-01-30T21:10:50.716Z",
+      "accessTime": "2019-01-31T02:10:46.870Z",
       "changeTime": "2019-01-29T03:35:56.522Z",
       "birthTime": "2019-01-29T03:11:05.163Z",
       "root": "/",
@@ -1853,61 +2150,14 @@
       "blksize": 4096,
       "ino": 8602697769,
       "blocks": 8,
-      "atimeMs": 1548882650715.5044,
+      "atimeMs": 1548900646869.561,
       "mtimeMs": 1548732956522.382,
       "ctimeMs": 1548732956522.382,
       "birthtimeMs": 1548731465162.8618,
-      "atime": "2019-01-30T21:10:50.716Z",
+      "atime": "2019-01-31T02:10:46.870Z",
       "mtime": "2019-01-29T03:35:56.522Z",
       "ctime": "2019-01-29T03:35:56.522Z",
       "birthtime": "2019-01-29T03:11:05.163Z"
-    },
-    "97da81fe-d756-5260-b8b5-501b3f8ac3f3": {
-      "id": "97da81fe-d756-5260-b8b5-501b3f8ac3f3",
-      "children": [
-        "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "87f42accf3f25e8934aa0d08ea050aff",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/post3.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post3.md",
-      "relativePath": "post3.md",
-      "extension": "md",
-      "size": 572,
-      "prettySize": "572 B",
-      "modifiedTime": "2019-01-30T16:38:19.158Z",
-      "accessTime": "2019-01-30T21:10:50.716Z",
-      "changeTime": "2019-01-30T16:38:19.158Z",
-      "birthTime": "2019-01-30T16:17:10.657Z",
-      "root": "/",
-      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts",
-      "base": "post3.md",
-      "ext": ".md",
-      "name": "post3",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8602740606,
-      "blocks": 8,
-      "atimeMs": 1548882650715.5535,
-      "mtimeMs": 1548866299158.0347,
-      "ctimeMs": 1548866299158.0347,
-      "birthtimeMs": 1548865030656.9531,
-      "atime": "2019-01-30T21:10:50.716Z",
-      "mtime": "2019-01-30T16:38:19.158Z",
-      "ctime": "2019-01-30T16:38:19.158Z",
-      "birthtime": "2019-01-30T16:17:10.657Z"
     },
     "6f057c15-7d87-5dcb-a7e6-4a274318ab8f": {
       "id": "6f057c15-7d87-5dcb-a7e6-4a274318ab8f",
@@ -1929,7 +2179,7 @@
       "size": 568,
       "prettySize": "568 B",
       "modifiedTime": "2019-01-30T15:59:55.989Z",
-      "accessTime": "2019-01-30T21:10:50.716Z",
+      "accessTime": "2019-01-31T02:10:46.870Z",
       "changeTime": "2019-01-30T15:59:55.989Z",
       "birthTime": "2019-01-30T15:59:05.928Z",
       "root": "/",
@@ -1947,14 +2197,61 @@
       "blksize": 4096,
       "ino": 8602740082,
       "blocks": 8,
-      "atimeMs": 1548882650715.5303,
+      "atimeMs": 1548900646869.5894,
       "mtimeMs": 1548863995989.4478,
       "ctimeMs": 1548863995989.4478,
       "birthtimeMs": 1548863945928.036,
-      "atime": "2019-01-30T21:10:50.716Z",
+      "atime": "2019-01-31T02:10:46.870Z",
       "mtime": "2019-01-30T15:59:55.989Z",
       "ctime": "2019-01-30T15:59:55.989Z",
       "birthtime": "2019-01-30T15:59:05.928Z"
+    },
+    "97da81fe-d756-5260-b8b5-501b3f8ac3f3": {
+      "id": "97da81fe-d756-5260-b8b5-501b3f8ac3f3",
+      "children": [
+        "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "87f42accf3f25e8934aa0d08ea050aff",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/post3.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post3.md",
+      "relativePath": "post3.md",
+      "extension": "md",
+      "size": 572,
+      "prettySize": "572 B",
+      "modifiedTime": "2019-01-30T16:38:19.158Z",
+      "accessTime": "2019-01-31T02:10:46.870Z",
+      "changeTime": "2019-01-30T16:38:19.158Z",
+      "birthTime": "2019-01-30T16:17:10.657Z",
+      "root": "/",
+      "dir": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts",
+      "base": "post3.md",
+      "ext": ".md",
+      "name": "post3",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602740606,
+      "blocks": 8,
+      "atimeMs": 1548900646869.6152,
+      "mtimeMs": 1548866299158.0347,
+      "ctimeMs": 1548866299158.0347,
+      "birthtimeMs": 1548865030656.9531,
+      "atime": "2019-01-31T02:10:46.870Z",
+      "mtime": "2019-01-30T16:38:19.158Z",
+      "ctime": "2019-01-30T16:38:19.158Z",
+      "birthtime": "2019-01-30T16:17:10.657Z"
     },
     "097ca6d8-2f06-5427-8892-2cd34de0b47d": {
       "id": "097ca6d8-2f06-5427-8892-2cd34de0b47d",
@@ -1975,25 +2272,6 @@
       "rawMarkdownBody": "\n# Hello\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post1.md"
     },
-    "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb": {
-      "id": "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb",
-      "children": [],
-      "parent": "97da81fe-d756-5260-b8b5-501b3f8ac3f3",
-      "internal": {
-        "content": "\n# Cold Day\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
-        "type": "MarkdownRemark",
-        "contentDigest": "3270eee434ba9d5e4fada0ec42c189b0",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Our Third Post",
-        "slug": "/third-post",
-        "date": "2019-01-31"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n# Cold Day\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
-      "fileAbsolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post3.md"
-    },
     "a1c2119e-47a4-5cc0-add5-5741b904538c": {
       "id": "a1c2119e-47a4-5cc0-add5-5741b904538c",
       "children": [],
@@ -2012,6 +2290,25 @@
       "excerpt": "",
       "rawMarkdownBody": "\n# Yo\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
       "fileAbsolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post2.md"
+    },
+    "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb": {
+      "id": "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb",
+      "children": [],
+      "parent": "97da81fe-d756-5260-b8b5-501b3f8ac3f3",
+      "internal": {
+        "content": "\n# Cold Day\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
+        "type": "MarkdownRemark",
+        "contentDigest": "3270eee434ba9d5e4fada0ec42c189b0",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Our Third Post",
+        "slug": "/third-post",
+        "date": "2019-01-31"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Cold Day\n\nLorem ipsum dolor amet disrupt 3 wolf moon normcore, keytar ramps lumbersexual thundercats snackwave church-key cliche blog. Flexitarian venmo tousled banjo ramps air plant PBR&B. Shaman jianbing mustache craft beer paleo polaroid, pabst lumbersexual man braid. Gluten-free marfa butcher mustache hot chicken, small batch occupy raclette vape actually cornhole slow-carb schlitz.\n\nOh. You need a little dummy text for your mockup? How quaint.\n\nI bet you’re still using Bootstrap too…",
+      "fileAbsolutePath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/posts/post3.md"
     },
     "SitePage /offline-plugin-app-shell-fallback/": {
       "jsonName": "offline-plugin-app-shell-fallback-a30",
@@ -2055,28 +2352,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /posts/third-post": {
-      "jsonName": "posts-third-post-82e",
-      "internalComponentName": "ComponentPostsThirdPost",
-      "path": "/posts/third-post",
-      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js",
-      "componentChunkName": "component---src-components-post-layout-js",
-      "context": {
-        "slug": "/third-post"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js",
-      "id": "SitePage /posts/third-post",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "d03773a0e5ace37e60c1f277f0cda41a",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /posts/second-post": {
       "jsonName": "posts-second-post-14f",
       "internalComponentName": "ComponentPostsSecondPost",
@@ -2095,6 +2370,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "48a72003fd2c5d2381385c0aa75567ce",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/third-post": {
+      "jsonName": "posts-third-post-82e",
+      "internalComponentName": "ComponentPostsThirdPost",
+      "path": "/posts/third-post",
+      "component": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/third-post"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js",
+      "id": "SitePage /posts/third-post",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d03773a0e5ace37e60c1f277f0cda41a",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2222,7 +2519,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "2b74fcbd5deed42c937ee4d069340aa3"
+    "PLUGINS_HASH": "666c1df4eefc288c676ff615273b66b2"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2230,31 +2527,30 @@
         "sq--src-components-layout-js",
         "sq--src-components-seo-js"
       ],
-      "88eef0f1-575f-5cb3-b1c6-3d349d965f22": [
-        "sq--src-components-image-js"
-      ],
       "5a2c0b83-ad4a-53fe-9adc-0c5461b9af7d": [
         "sq--src-components-layout-js"
       ],
-      "43692ae9-b05c-508a-875f-438dacd77902": [
+      "88eef0f1-575f-5cb3-b1c6-3d349d965f22": [
         "sq--src-components-image-js"
       ],
       "4d6817e1-0216-523e-b338-d73973132e3f": [
         "sq--src-components-layout-js"
       ],
+      "43692ae9-b05c-508a-875f-438dacd77902": [
+        "sq--src-components-image-js"
+      ],
       "097ca6d8-2f06-5427-8892-2cd34de0b47d": [
         "/posts/first-post"
       ],
-      "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb": [
-        "/posts/third-post"
-      ],
       "a1c2119e-47a4-5cc0-add5-5741b904538c": [
         "/posts/second-post"
+      ],
+      "5c60f504-d9ac-57d2-a03f-e1b7cc0339eb": [
+        "/posts/third-post"
       ]
     },
     "connections": {
       "MarkdownRemark": [
-        null,
         null,
         "sq--src-components-archive-js",
         "sq--src-components-listing-js"
@@ -2284,6 +2580,10 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js"
+    },
     "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js": {
       "query": "query PostQuery(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n      date\n      slug\n    }\n  }\n}\n",
       "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/postLayout.js"
@@ -2307,10 +2607,6 @@
     "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/page-2.js": {
       "query": "",
       "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/pages/page-2.js"
-    },
-    "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js": {
-      "query": "",
-      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {
@@ -2322,14 +2618,6 @@
       "query": "query blogPostArchive {\n  allMarkdownRemark(limit: 5, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          slug\n        }\n      }\n    }\n  }\n}\n",
       "hash": 1194998240
     },
-    "sq--src-components-image-js": {
-      "name": "usersBrettCimbalikCodeAnotherGatsbyTutorialSrcComponentsImageJs2011440971",
-      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/image.js",
-      "id": "sq--src-components-image-js",
-      "jsonName": "sq--src-components-image-js",
-      "query": "query usersBrettCimbalikCodeAnotherGatsbyTutorialSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2011440971
-    },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/layout.js",
@@ -2338,13 +2626,13 @@
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n  file(relativePath: {regex: \"/bg/\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2885641949
     },
-    "sq--src-components-seo-js": {
-      "name": "DefaultSEOQuery",
-      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/seo.js",
-      "id": "sq--src-components-seo-js",
-      "jsonName": "sq--src-components-seo-js",
-      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
-      "hash": 1025518380
+    "sq--src-components-image-js": {
+      "name": "usersBrettCimbalikCodeAnotherGatsbyTutorialSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersBrettCimbalikCodeAnotherGatsbyTutorialSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
     },
     "sq--src-components-listing-js": {
       "name": "BlogPostListing",
@@ -2353,6 +2641,14 @@
       "jsonName": "sq--src-components-listing-js",
       "query": "query BlogPostListing {\n  allMarkdownRemark(limit: 10, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        excerpt\n        frontmatter {\n          date(formatString: \"MMMM, DD, YYYY\")\n          title\n          slug\n        }\n      }\n    }\n  }\n}\n",
       "hash": 2206128657
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/BrettCimbalik/code/another-gatsby-tutorial/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
     }
   }
 }

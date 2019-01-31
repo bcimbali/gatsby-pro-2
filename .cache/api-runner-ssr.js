@@ -2,6 +2,9 @@ var plugins = [{
       plugin: require('/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/BrettCimbalik/code/another-gatsby-tutorial/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{

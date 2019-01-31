@@ -26,32 +26,36 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-f163c9ccc01827dd23f6.js"
+    "url": "webpack-runtime-318ad061c522abd92729.js"
   },
   {
-    "url": "app-d4cea234de92ffa06832.js"
+    "url": "app-c42243ef09140428e397.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-534acc9086620e8c6f2a.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-feb1446681e715ce887c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "51c836b671dcf99d54f05c3f02352152"
+    "revision": "1010fb81d5b77758648909f4b413988e"
   },
   {
     "url": "component---src-pages-404-js.fc0360e935268c0b4b8c.css"
   },
   {
-    "url": "0-8c393efcc8cf90c9a508.js"
+    "url": "0-ee9b39058b894d9bb5fe.js"
   },
   {
-    "url": "component---src-pages-404-js-9d7b319f89f608305001.js"
+    "url": "component---src-pages-404-js-88fff4a41914cbb20e19.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json"
   },
   {
     "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json"
+  },
+  {
+    "url": "manifest.json",
+    "revision": "b8ccb51c916698f455c4006ecd71d1ea"
   },
   {
     "url": "manifest.webmanifest",
